@@ -150,6 +150,9 @@
     <ClCompile Include="c플 13주 try,catch.cpp">
       <Filter>c++</Filter>
     </ClCompile>
+    <ClCompile Include="cpp 14주차 queue.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Box.h">

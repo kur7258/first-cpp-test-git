@@ -1,52 +1,62 @@
 #include <iostream>
-#include <string>
-#define MAX 5
-
 using namespace std;
 
-class SearchArray {
+template <typename T>
+class queue
+{
+private:
+    T* Queue;
+    T QSize;
+    T head, tail;
 public:
-    SearchArray() {}
-    int finds(int x) {
-        cout << x << "을(를) 찾았습니다." << endl;
-        return 0;
+    void InitQueue(T size)
+    {
+        QSize = size;
+        Queue = new T[QSize];
+        head = tail = 0;
     }
-};
-class NotFound :public SearchArray {
-public:
-    int notfind() {
-        cout << "not find" << endl;
-        return 0;
+    void FreeQueue()
+    {
+        free(Queue);
     }
-};
-int main() {
-    int num[MAX];
-    int f;
-
-    SearchArray t;
-    NotFound tt;
-
-    for (int i = 0; i < MAX; i++) {
-        cout << "배열을 입력하시오 = ";
-        cin >> num[i];
-    }
-    cout << endl << "배열에 저장된 값은 ..." << endl;
-
-    for (int z = 0; z < MAX; z++) {
-        cout << "{" << num[z] << "}";
-    }
-
-    cout << endl << endl << "배열에서 찾을 값을 입력하시오 = ";
-    cin >> f;
-
-    try {
-        if (find(num, num + MAX, f) != num + MAX) {
-            t.finds(f);
+    bool Insert(T data)
+    {
+        if ((tail + 1) % QSize == head)
+        {
+            return false;
         }
-        else throw num;
+        Queue[tail] = data;
+        tail = (tail + 1) % QSize;
+        return true;
     }
-    catch (int* e) {
-        tt.notfind();
+    T dequeue()
+    {
+        T data;
+        if (head == tail)
+        {
+            return -1;
+        }
+        data = Queue[head];
+        head = (head + 1) % QSize;
+        return data;
     }
-    return 0;
+};
+int main()
+{
+    int x, y;
+    queue<int> q;
+    cout << "큐 크기를 입력하시오 : ";
+    cin >> x;
+    q.InitQueue(x + 1);
+
+    for (int i = 0; i < x; i++) {
+        cout << "Queue 삽입 데이터 : ";
+        cin >> y;
+        q.Insert(y);
+    }
+
+    for (int i = 0; i < x; i++) {
+        cout << "q.dequeue() : " << q.dequeue() << endl;
+    }
+    q.FreeQueue();
 }
