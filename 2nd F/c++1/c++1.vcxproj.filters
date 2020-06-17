@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="c++">
+      <UniqueIdentifier>{6e58759b-c371-4222-869a-74ba3e9c0b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c">
+      <UniqueIdentifier>{009d4a77-3cfc-4698-adb2-e253b33ab04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h">
+      <UniqueIdentifier>{4b941aba-bd9f-474d-b4b4-99debaec0c00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\c++\c플 8주차 멤버상속.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 9주차 멤버상속.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 과제 NIM 게임.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 과제 그래프.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 과제 연이율 .cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 과제 최대최소평균.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플플 4주차 문자열 알파벳.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\Hello.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\if else 과제 2번.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\if else 과제3.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\if else문 과제.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\test.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\데이터 5주차 다항식연산.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\데이터구조 근 구하기.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\데이터구조 최대최소.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주 ifelse과제.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주 k의 값.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주 컵사이즈.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주차 mult 반환.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주차 출력 3.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주차 출력 나타내기.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\2주차 코드출력2.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\5주차 1번.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\5주차 데이터 다항식 순차 자료구조.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\Box main.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\Box.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 3주차 계산기 만들기.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 3주차 문자열 추출.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 3주차 문자의 개수.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 3주차 정수배열 최대값.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 3주차 최댓값 포인터.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 6주차 Circle.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c++\c플 7주차 circle 실습.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c\과제2(정답).c">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c\데이터구조 7주차 연결리스트.c">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c\중간고사1.c">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="c플 10주.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="testOnly.c">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="후위표기법 진짜.c">
+      <Filter>c</Filter>
+    </ClCompile>
+    <ClCompile Include="c플 11주 추상함수 단위변환.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="c++12주 중복연산자.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+    <ClCompile Include="c플 13주 try,catch.cpp">
+      <Filter>c++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Box.h">
+      <Filter>h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

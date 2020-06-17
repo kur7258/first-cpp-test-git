@@ -1,0 +1,3 @@
+﻿  c플 13주 try,catch.cpp
+D:\programming\c,c++Study\2nd F\c++1\c플 13주 try,catch.cpp(17): warning C4715: 'SearchArray::Search': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  c++1.vcxproj -> D:\programming\c,c++Study\2nd F\x64\Debug\2nd F.exe
