@@ -15,3 +15,6 @@ public:
 	void setVolume(int v);
 	void Print();
 };
+
+8번 // 초기화 리스트로는 const의 영향을 받지 않고 초기화 가능
+

@@ -158,5 +158,8 @@
     <ClInclude Include="..\Box.h">
       <Filter>h</Filter>
     </ClInclude>
+    <ClInclude Include="기말고사.h">
+      <Filter>h</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
