@@ -7,12 +7,12 @@ private:
 	int num;
 public:
 	SearchArray() { num = 1; }
-	int Search(int n, int *array);
+	bool Search(int n, int *array);
 };
 
-int SearchArray::Search(int n, int *array) {
+bool SearchArray::Search(int n, int *array) {
 	if (find(array, array + MAX, n) != array + MAX) {
-		return 1;
+		return true;
 	}
 }
 
@@ -35,10 +35,10 @@ int main() {
 	cout <<endl<< "찾을 값을 입력하세요 : ";
 	cin >> n;
 	try {
-		if (sa.Search(n, array) == 1) { cout << "Found"; }
+		if (sa.Search(n, array) == true) { cout << "Found"; }
 		else throw 1;
 	}
-	catch (...) {
+	catch (int expn) {
 		nf.notfound();
 	}
 
